@@ -139,7 +139,6 @@ function MainAcc() {
 
   return (
     <div> 
-      <Navbar />  
       <div className="App">
       <h1 className="page-title">Leo Club Activities</h1>
       <p className="page-title1"><i>Sept 2024 - May 2025</i></p>

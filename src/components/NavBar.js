@@ -16,8 +16,7 @@ const Navbar = () => {
       <div className="navbar-logo"> Leo Club Of Nakuru</div>
 
       <div className="desktop-links">
-        <a href="/">About Us</a>
-        <a href="/activities">Our Activities</a>
+        <a href="/">Our Activities</a>
       </div>
 
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
@@ -36,8 +35,7 @@ const Navbar = () => {
             exit="exit"
             transition={{ duration: 0.3 }}
           >
-             <a href="/">About Us</a>
-            <a href="/activities">Our Activities</a>
+            <a href="/">Our Activities</a>
           </motion.div>
         )}
       </AnimatePresence>
